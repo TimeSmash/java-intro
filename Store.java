@@ -20,7 +20,7 @@ public class Store {
   //The arguments here are what the instance's fields will start off as
   public Store(String product, int count, double price) {
     // public is an access level modifier that allows other classes to interact with this class
-    // Known as instance values in constructor
+    // Known as instance values in constructor?
     productType = product;
     inventoryCount = count;
     inventoryPrice = price;
