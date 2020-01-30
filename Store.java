@@ -20,6 +20,7 @@ public class Store {
   //The arguments here are what the instance's fields will start off as
   public Store(String product, int count, double price) {
     // public is an access level modifier that allows other classes to interact with this class
+    // Known as instance values in constructor
     productType = product;
     inventoryCount = count;
     inventoryPrice = price;
@@ -38,6 +39,8 @@ public class Store {
     System.out.println("Our first shop sells " + lemonadeStand.productType + " at " + lemonadeStand.inventoryPrice + " per unit.");
     
     System.out.println("Our second shop has " + cookieShop.inventoryCount + " units remaining.");
+    // printing an instance of Store, which looks something like Store@6bc7c054. refers to the instance’s location in the computer’s memory.
+    System.out.println(lemonadeStand);
   }
 }
 // Running the program invokes main()
