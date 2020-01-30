@@ -28,6 +28,10 @@ public class Store {
   // main method
   public static void main(String[] args) {
     //An instance of store whose product is lemonade, inv count is 42, and price is .99
+    //main() method lists the tasks performed by the program. main() runs when we execute the compiled .class file.
+    //We create instances by calling or invoking the constructor within main()
+    
+    // We invoke the constructor method: Store(), and use the keyword new to indicate that we’re creating an instance. 
     Store lemonadeStand = new Store("lemonade", 42, .99);
     Store cookieShop = new Store("cookies", 12, 3.75);
     
@@ -35,7 +39,13 @@ public class Store {
     
     System.out.println("Our second shop has " + cookieShop.inventoryCount + " units remaining.");
   }
-}// Similar to JS and Ruby, we have classes. Objects are instances of those classes.
+}
+// Running the program invokes main()
+// We create an instance so we move from main() to Store()
+// The code inside Store() runs
+// When Store() finishes execution, we return to main()
+
+// Similar to JS and Ruby, we have classes. Objects are instances of those classes.
 
 //Objects have state: properties that are related to it in some way, like a bank account and its name, balance, interest rate...
 
